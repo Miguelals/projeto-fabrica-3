@@ -58,10 +58,10 @@ if botao:
 
         # Efeito visual se houver empate
         if len(mais_baratos) > 1:
-            rain(emoji="🎉", font_size=40, falling_speed=3, animation_length="infinite")
+            rain(emoji="🎉", font_size=40, falling_speed=3, animation_length=1)
             st.balloons()
         else:
-            rain(emoji="💰", font_size=40, falling_speed=4, animation_length="infinite")
+            rain(emoji="💰", font_size=40, falling_speed=4, animation_length=1)
 
         # Exibir resultado em destaque
         st.success(f"### ✅ Resultado para **{produto}**")
